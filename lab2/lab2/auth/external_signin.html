@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+</head>
+<body>
+    <h1>Signin</h1>
+    <p>Signin and get full access to our resources</p>
+    <form>
+        <label>Username</label>
+        <input type="email" name="username" min="6" max="32" placeholder="Email" required="required"><br/><br>
+        <label>Password</label>
+        <input type="password" name="password" pattern=".{8,}" title="Must be at least 8 characters" placeholder="Password" required="required"><br/>
+        <input type="submit" value="Signin" name="signin"><br/>
+    </form>
+</body>
+</html>
